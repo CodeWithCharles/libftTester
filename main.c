@@ -6,7 +6,7 @@
 /*   By: cpoulain <cpoulain@student.42lehavre.fr>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/21 11:48:58 by cpoulain          #+#    #+#             */
-/*   Updated: 2024/10/21 17:19:45 by cpoulain         ###   ########.fr       */
+/*   Updated: 2024/10/21 17:29:27 by cpoulain         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,8 @@ int main() {
 	test_memcmp();
 	test_memcpy();
 	test_memmove();
-
+	test_memset();
+	
 	return 0;
 }
 
