@@ -6,7 +6,7 @@
 /*   By: cpoulain <cpoulain@student.42lehavre.fr>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/21 11:41:40 by cpoulain          #+#    #+#             */
-/*   Updated: 2024/10/21 12:51:47 by cpoulain         ###   ########.fr       */
+/*   Updated: 2024/10/21 16:20:45 by cpoulain         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,5 +51,4 @@ void test_atoi() {
 	print_test_result("Test 11 - Small negative number", ft_atoi("-2147483648") == -2147483648, "Expected -2147483648", &passed_tests, &total_tests);
 
 	printf("\n%s passed %d/%d tests.\n", __func__, passed_tests, total_tests);
-	sleep(1);
 }
