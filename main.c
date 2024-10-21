@@ -6,7 +6,7 @@
 /*   By: cpoulain <cpoulain@student.42lehavre.fr>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/21 11:48:58 by cpoulain          #+#    #+#             */
-/*   Updated: 2024/10/21 16:47:28 by cpoulain         ###   ########.fr       */
+/*   Updated: 2024/10/21 17:07:34 by cpoulain         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,12 @@ int main() {
 	test_isdigit();
 	sleep(1);
 	test_isprint();
+	sleep(1);
+	test_itoa();
+	sleep(1);
+	test_memchr();
+	sleep(1);
+	test_memcmp();
 	sleep(1);
 
 	return 0;

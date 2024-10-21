@@ -6,7 +6,7 @@
 /*   By: cpoulain <cpoulain@student.42lehavre.fr>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/21 11:38:52 by cpoulain          #+#    #+#             */
-/*   Updated: 2024/10/21 16:47:20 by cpoulain         ###   ########.fr       */
+/*   Updated: 2024/10/21 17:07:25 by cpoulain         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@
 # include <unistd.h>
 # include <string.h>
 # include <ctype.h>
+# include <limits.h>
 
 # define COLOR_GREEN	"\033[1;32m"
 # define COLOR_RED		"\033[1;31m"
@@ -36,4 +37,7 @@ void	test_isalpha();
 void	test_isascii();
 void	test_isdigit();
 void	test_isprint();
+void	test_itoa();
+void	test_memchr();
+void	test_memcmp();
 #endif

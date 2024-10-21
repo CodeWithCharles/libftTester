@@ -16,7 +16,10 @@ HEADERS = libftTester.h
 LIBFT_DIR = ../
 LIBFT = $(LIBFT_DIR)libft.a
 
-all: $(NAME)
+all: $(NAME) run
+
+run:
+	./libftTester > test_log && cat test_log
 
 $(NAME): $(LIBFT) make_dirs $(OBJS)
 	$(CC) $(CFLAGS) -o $(NAME) $(OBJS) $(LIBFT)
