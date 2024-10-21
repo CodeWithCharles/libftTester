@@ -6,7 +6,7 @@
 /*   By: cpoulain <cpoulain@student.42lehavre.fr>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/21 11:38:52 by cpoulain          #+#    #+#             */
-/*   Updated: 2024/10/21 16:44:16 by cpoulain         ###   ########.fr       */
+/*   Updated: 2024/10/21 16:47:20 by cpoulain         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,4 +35,5 @@ void	test_isalnum();
 void	test_isalpha();
 void	test_isascii();
 void	test_isdigit();
+void	test_isprint();
 #endif
