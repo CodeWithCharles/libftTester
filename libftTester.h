@@ -6,7 +6,7 @@
 /*   By: cpoulain <cpoulain@student.42lehavre.fr>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/21 11:38:52 by cpoulain          #+#    #+#             */
-/*   Updated: 2024/10/21 17:07:25 by cpoulain         ###   ########.fr       */
+/*   Updated: 2024/10/21 17:14:07 by cpoulain         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,4 +40,6 @@ void	test_isprint();
 void	test_itoa();
 void	test_memchr();
 void	test_memcmp();
+void	test_memcpy();
+void	test_memmove();
 #endif

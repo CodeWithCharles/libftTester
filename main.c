@@ -6,7 +6,7 @@
 /*   By: cpoulain <cpoulain@student.42lehavre.fr>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/21 11:48:58 by cpoulain          #+#    #+#             */
-/*   Updated: 2024/10/21 17:07:34 by cpoulain         ###   ########.fr       */
+/*   Updated: 2024/10/21 17:19:45 by cpoulain         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,27 +16,18 @@ int main() {
     printf("Running mandatory tests...\n\n");
 
     test_atoi();
-	sleep(1);
 	test_bzero();
-	sleep(1);
 	test_calloc();
-	sleep(1);
 	test_isalnum();
-	sleep(1);
 	test_isalpha();
-	sleep(1);
 	test_isascii();
-	sleep(1);
 	test_isdigit();
-	sleep(1);
 	test_isprint();
-	sleep(1);
 	test_itoa();
-	sleep(1);
 	test_memchr();
-	sleep(1);
 	test_memcmp();
-	sleep(1);
+	test_memcpy();
+	test_memmove();
 
 	return 0;
 }
