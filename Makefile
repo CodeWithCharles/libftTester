@@ -13,10 +13,16 @@ OBJS = $(patsubst %.c, $(OBJ_DIR)%.o, $(SRCS))
 
 HEADERS = libftTester.h
 
+LIBFT_DIR = 42_libft/
+LIBFT = $(LIBFT_DIR)libft.a
+
 all: $(NAME)
 
-$(NAME): make_dirs $(OBJS)
-	$(CC) $(CFLAGS) -o $(NAME) $(OBJS)
+$(NAME): make_dirs $(OBJS) $(LIBFT)
+	$(CC) $(CFLAGS) -o $(NAME) $(OBJS) $(LIBFT)
+
+$(LIBFT):
+	make -C $(LIBFT_DIR)
 
 make_dirs:
 	@mkdir -p $(OBJ_DIR)
@@ -33,5 +39,5 @@ fclean: clean
 
 re: fclean all
 
-.PHONY: all clean fclean re
+.PHONY: all make_dirs clean fclean re
 
